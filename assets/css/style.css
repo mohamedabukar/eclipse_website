@@ -1,24 +1,6 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
-
-  /**
-   * colors
-   */
 
   --safety-orange: hsl(25, 100%, 50%);
   --lavender-gray: hsl(230, 19%, 81%);
@@ -36,15 +18,8 @@
   --white-2: hsl(0, 14%, 98%);
   --black: hsl(0, 0%, 0%);
 
-  /**
-   * gradient color
-   */
 
   --gradient: linear-gradient(to left top, var(--persian-rose), var(--safety-orange));
-
-  /**
-   * typography
-   */
 
   --ff-roboto: 'Roboto', sans-serif;
   --ff-league-spartan: 'League Spartan', sans-serif;
@@ -59,22 +34,11 @@
   --fw-700: 700;
   --fw-500: 500;
 
-  /**
-   * spacing
-   */
 
   --section-padding: 60px;
 
-  /**
-   * shadow
-   */
-
   --shadow-1: 0 6px 24px var(--black_5);
   --shadow-2: 0 2px 28px var(--black_10);
-
-  /**
-   * border radius
-   */
 
   --radius-2: 2px;
   --radius-5: 5px;
@@ -94,9 +58,7 @@
 
 
 
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
+
 
 *,
 *::before,
@@ -232,22 +194,22 @@ body {
 
 .img-holder {
   aspect-ratio: var(--width) / var(--height);
-  background-color: var(--light-gray);
+
+
+}
+
+.hola{
+  margin-bottom: 15px;
 }
 
 .img-cover {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 5%;
 }
 
 
-
-
-
-/*-----------------------------------*\
-  #HEADER
-\*-----------------------------------*/
 
 .header {
   position: fixed;
@@ -272,8 +234,8 @@ body {
 .logo {
   font-family: var(--ff-league-spartan);
   color: var(--black);
-  font-size: 3.5rem;
-  font-weight: var(--fw-700);
+  font-size: 2rem;
+
   line-height: 1;
 }
 
